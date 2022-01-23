@@ -1,0 +1,243 @@
+E1   23.14   140   3.42
+E2   17.39   126   2.46
+E3   16.07   17   2.72
+E4   9.88   65   1.67
+E5   22.19   57   3.68
+E6   10.42   130   3.16
+E7   18.28   78   3.6
+E8   38.03   39   5.61
+E9   34.42   58   4.3
+E10   16.88   72   3.42
+E11   25.58   93   3.33
+E12   40.61   85   5.79
+E13   13.12   116   2.54
+E14   11.28   40   1.23
+
+Constructive:
+S0: E14 E5 E11 E8 E7 E13 E12 E1 E10 E6 
+Rest: E2 E3 E4 E9 
+Total Cost= 219.53 Jobs= 850 zCurrent= 35.78
+
+Tabu:
+MAXIMIZE PROFIT!
+loooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooop: 1
+E14 E5 E11 E8 E7 E13 E12 E1 E10 E6 
+rand= 0.726921 vgainei to E1
+
+Out  E1 In  E2   zCurrent=   34.82 Cost= 213.78
+zCurrent= 34.82
+bestScore: 34.82 0 0 0 0 0 
+bestMin= 0
+Out  E1 In  E3   zCurrent=   35.08 Cost= 212.46
+zCurrent= 35.08
+bestScore: 34.82 35.08 0 0 0 0 
+bestMin= 0
+Out  E1 In  E4   zCurrent=   34.03 Cost= 206.27
+zCurrent= 34.03
+bestScore: 34.82 35.08 34.03 0 0 0 
+bestMin= 0
+Out  E1 In  E9   zCurrent=   36.66 Cost= 230.81
+zAve= 34.6433
+
+TABU: E3   E1               
+Divers: 1
+loooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooop: 2
+E14 E5 E11 E8 E7 E13 E12 E3 E10 E6 
+rand= 0.170806 vgainei to E5
+
+Out  E5 In  E2   zCurrent=   33.86 Cost= 207.66
+zCurrent= 33.86
+bestScore: 34.82 35.08 34.03 33.86 0 0 
+bestMin= 0
+Out  E5 In  E1   zCurrent=   34.82 Cost= 213.41
+zCurrent= 34.82
+bestScore: 34.82 35.08 34.03 33.86 34.82 0 
+bestMin= 0
+Out  E5 In  E4   zCurrent=   33.07 Cost= 200.15
+zCurrent= 33.07
+bestScore: 34.82 35.08 34.03 33.86 34.82 33.07 
+bestMin= 0
+Out  E5 In  E9   zCurrent=   35.7 Cost= 224.69
+zAve= 33.9167
+
+TABU: E3   E1   E1   E5         
+Divers: 2
+loooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooop: 3
+E14 E1 E11 E8 E7 E13 E12 E3 E10 E6 
+rand= 0.702457 vgainei to E3
+
+Out  E3 In  E2   zCurrent=   34.56 Cost= 214.73
+zCurrent= 34.56
+bestScore: 34.82 35.08 34.03 33.86 34.82 34.56 
+bestMin= 33.07
+Out  E3 In  E5   zCurrent=   35.78 Cost= 219.53
+zCurrent= 35.78
+bestScore: 34.82 35.08 34.03 35.78 34.82 34.56 
+bestMin= 33.86
+Out  E3 In  E4   zCurrent=   33.77 Cost= 207.22
+
+Out  E3 In  E9   zCurrent=   36.4 Cost= 231.76
+zAve= 34.7033
+
+TABU: E3   E1   E1   E5   E5   E3   
+Divers: 3
+loooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooop: 4
+E14 E1 E11 E8 E7 E13 E12 E5 E10 E6 
+rand= 0.226287 vgainei to E11
+
+Out  E11 In  E2   zCurrent=   34.91 Cost= 211.34
+zCurrent= 34.91
+bestScore: 34.82 35.08 34.91 35.78 34.82 34.56 
+bestMin= 34.03
+Out  E11 In  E3   zCurrent=   35.17 Cost= 210.02
+zCurrent= 35.17
+bestScore: 34.82 35.08 34.91 35.78 34.82 35.17 
+bestMin= 34.56
+Out  E11 In  E4   zCurrent=   34.12 Cost= 203.83
+
+Out  E11 In  E9   zCurrent=   36.75 Cost= 228.37
+zAve= 34.7333
+
+TABU: E3   E11   E1   E5   E5   E3   
+Divers: 0
+loooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooop: 5
+E14 E1 E3 E8 E7 E13 E12 E5 E10 E6 
+rand= 0.752522 vgainei to E5
+
+Out  E5 In  E2   zCurrent=   33.95 Cost= 205.22
+
+Out  E5 In  E11   zCurrent=   34.82 Cost= 213.41
+zCurrent= 34.82
+bestScore: 34.82 35.08 34.91 35.78 34.82 35.17 
+bestMin= 34.82
+Out  E5 In  E4   zCurrent=   33.16 Cost= 197.71
+
+Out  E5 In  E9   zCurrent=   35.79 Cost= 222.25
+zAve= 33.9767
+
+TABU: E3   E11   E11   E5   E5   E3   
+Divers: 1
+loooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooop: 6
+E14 E1 E3 E8 E7 E13 E12 E11 E10 E6 
+rand= 0.278816 vgainei to E3
+
+Out  E3 In  E2   zCurrent=   34.56 Cost= 214.73
+
+Out  E3 In  E5   zCurrent=   35.78 Cost= 219.53
+zCurrent= 35.78
+bestScore: 35.78 35.08 34.91 35.78 34.82 35.17 
+bestMin= 34.82
+Out  E3 In  E4   zCurrent=   33.77 Cost= 207.22
+
+Out  E3 In  E9   zCurrent=   36.4 Cost= 231.76
+zAve= 34.7033
+
+TABU: E3   E11   E11   E5   E5   E3   
+Divers: 2
+loooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooop: 7
+E14 E1 E5 E8 E7 E13 E12 E11 E10 E6 
+rand= 0.724529 vgainei to E11
+
+Out  E11 In  E2   zCurrent=   34.91 Cost= 211.34
+zCurrent= 34.91
+bestScore: 35.78 35.08 34.91 35.78 34.91 35.17 
+bestMin= 34.82
+Out  E11 In  E3   zCurrent=   35.17 Cost= 210.02
+zCurrent= 35.17
+bestScore: 35.78 35.08 35.17 35.78 34.91 35.17 
+bestMin= 34.91
+Out  E11 In  E4   zCurrent=   34.12 Cost= 203.83
+
+Out  E11 In  E9   zCurrent=   36.75 Cost= 228.37
+zAve= 34.7333
+
+TABU: E3   E11   E11   E5   E5   E3   
+Divers: 0
+
+-----------------------------------------------------------
+E14 E5 E11 E8 E7 E13 E12 E1 E10 E6 
+cost= 219.53 jobs= 850 zBest= 35.78
+Tabu= E3  E11  E11  E5  E5  E3  
+
+--------6 best solutions-----------
+E14 E1 E5 E8 E7 E13 E12 E11 E10 E6  with value:35.78
+E14 E5 E11 E8 E7 E13 E12 E3 E10 E6  with value:35.08
+E14 E1 E5 E8 E7 E13 E12 E3 E10 E6  with value:35.17
+E14 E1 E11 E8 E7 E13 E12 E5 E10 E6  with value:35.78
+E14 E1 E5 E8 E7 E13 E12 E2 E10 E6  with value:34.91
+E14 E1 E3 E8 E7 E13 E12 E5 E10 E6  with value:35.17
+i seira: 1 4 3 6 2 5 
+Pair 1: 1 - 4
+1 0 0 0 1 1 1 1 0 1 1 1 1 1 
+1 0 0 0 1 1 1 1 0 1 1 1 1 1 
+Pair 2: 3 - 6
+1 0 1 0 1 1 1 1 0 1 0 1 1 1 
+1 0 1 0 1 1 1 1 0 1 0 1 1 1 
+Pair 3: 2 - 5
+0 0 1 0 1 1 1 1 0 1 1 1 1 1 
+1 1 0 0 1 1 1 1 0 1 0 1 1 1 
+
+rand: 0.013938 splitPoint: 1
+
+
+rand: 0.480437 splitPoint: 7
+
+
+rand: 0.493716 splitPoint: 7
+
+child with value 31.75 to be mutated, Chroms: 0 0 1 0 1 1 1 1 0 1 0 1 1 1 
+rand= 2 mutated chiled new value: 34.21 new chroms: 0 1 1 0 1 1 1 1 0 1 0 1 1 1 
+Pair 1: 1 - 4
+1 0 0 0 1 1 1 1 0 1 1 1 1 1 
+1 0 0 0 1 1 1 1 0 1 1 1 1 1 
+Pair 2: 3 - 6
+1 0 1 0 1 1 1 1 0 1 0 1 1 1 
+1 0 1 0 1 1 1 1 0 1 0 1 1 1 
+Pair 3: 2 - 5
+0 1 1 0 1 1 1 1 0 1 0 1 1 1 
+1 1 0 0 1 1 1 1 0 1 1 1 1 1 
+Child 1 cost: 219.53 profit: 35.78
+Child 2 cost: 204.27 profit: 34.21
+Child 3 cost: 210.02 profit: 35.17
+Child 4 cost: 219.53 profit: 35.78
+Child 5 cost: 236.92 profit: 38.24
+Child 6 cost: 210.02 profit: 35.17
+i seira: 5 1 4 3 6 2 
+Pair 1: 5 - 1
+1 1 0 0 1 1 1 1 0 1 1 1 1 1 
+1 0 0 0 1 1 1 1 0 1 1 1 1 1 
+Pair 2: 4 - 3
+1 0 0 0 1 1 1 1 0 1 1 1 1 1 
+1 0 1 0 1 1 1 1 0 1 0 1 1 1 
+Pair 3: 6 - 2
+1 0 1 0 1 1 1 1 0 1 0 1 1 1 
+0 1 1 0 1 1 1 1 0 1 0 1 1 1 
+
+rand: 0.465157 splitPoint: 7
+
+
+rand: 0.479639 splitPoint: 7
+
+
+rand: 0.488121 splitPoint: 7
+
+child with value 32.45 to be mutated, Chroms: 1 0 0 0 1 1 1 1 0 1 0 1 1 1 
+rand= 13 mutated chiled new value: 29.91 new chroms: 1 0 0 0 1 1 1 1 0 1 0 1 0 1 
+Pair 1: 5 - 1
+1 1 0 0 1 1 1 1 0 1 1 1 1 1 
+1 0 0 0 1 1 1 1 0 1 1 1 1 1 
+Pair 2: 4 - 3
+1 0 0 0 1 1 1 1 0 1 0 1 0 1 
+1 0 1 0 1 1 1 1 0 1 1 1 1 1 
+Pair 3: 6 - 2
+1 0 1 0 1 1 1 1 0 1 0 1 1 1 
+0 1 1 0 1 1 1 1 0 1 0 1 1 1 
+Child 1 cost: 219.53 profit: 35.78
+Child 2 cost: 204.27 profit: 34.21
+Child 3 cost: 235.6 profit: 38.5
+Child 4 cost: 180.83 profit: 29.91
+Child 5 cost: 236.92 profit: 38.24
+Child 6 cost: 210.02 profit: 35.17
+
+Genetic:
+Best Child No: 1 cost: 219.53 profit 35.78
